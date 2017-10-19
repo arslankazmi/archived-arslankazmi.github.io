@@ -15,7 +15,7 @@ author:
 description: Time traveling at a rate of 1 sec per sec.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars1.githubusercontent.com/u/31250161?v=4&s=400&u=42a1fdc73adda9553479feee8bcd6a98be5c5121
+avatar: https://avatars1.githubusercontent.com/u/31250161?&amp;u=42a1fdc73adda9553479feee8bcd6a98be5c5121
 
 resumepath: https://arslankazmi.github.io/files/arslan_ahmad_kazmi_resume.pdf
 
@@ -28,7 +28,7 @@ defaults:
     values:
       image: https://avatars1.githubusercontent.com/u/31250161?v=4&s=400&u=42a1fdc73adda9553479feee8bcd6a98be5c5121
 
-logo: https://avatars1.githubusercontent.com/u/31250161?v=4&s=400&u=42a1fdc73adda9553479feee8bcd6a98be5c5121
+logo: https://avatars1.githubusercontent.com/u/31250161?&amp;u=42a1fdc73adda9553479feee8bcd6a98be5c5121
 
 
 #
