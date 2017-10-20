@@ -26,7 +26,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://avatars1.githubusercontent.com/u/31250161?v=4&s=400&u=42a1fdc73adda9553479feee8bcd6a98be5c5121
+      image: https://avatars1.githubusercontent.com/u/31250161?v=4&amp;s=400&amp;u=42a1fdc73adda9553479feee8bcd6a98be5c5121
 
 logo: https://avatars1.githubusercontent.com/u/31250161?&amp;u=42a1fdc73adda9553479feee8bcd6a98be5c5121
 
