@@ -11,7 +11,23 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.0/anchor.min.js"></script>
+    <script>
+    /**
+   * AnchorJS v3.2.0 options and selector
+ */
+
+(function () {
+  'use strict';
+
+  anchors.options.placement = 'left';
+
+  anchors.add('.post-content > h2, .post-content > h3, .post-content > h4, .post-content > h5, .post-content > h6');
+
+})();
+
+<script/>
+    
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
