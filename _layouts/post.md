@@ -10,12 +10,6 @@ layout: default
     {{ page.date | date: "%B %e, %Y" }}
   </div>
 
-### Table of contents
-{:.no_toc}
-
-* Table of contents placeholder
-{:toc}
-
   <div class="entry">
     {{ content }}
   </div>
