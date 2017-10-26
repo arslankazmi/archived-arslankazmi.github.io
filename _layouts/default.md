@@ -3,6 +3,22 @@
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
+    <script>
+    /**
+    * AnchorJS v3.2.0 options and selector
+    */
+
+(function () {
+  'use strict';
+
+  anchors.options.placement = 'left';
+
+  anchors.add('.post-content > h2, .post-content > h3, .post-content > h4, .post-content > h5, .post-content > h6');
+
+})();
+
+    
+    </script>
     {% seo %}
 
     <!--[if lt IE 9]>
