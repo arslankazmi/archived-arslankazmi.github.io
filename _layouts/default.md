@@ -13,9 +13,7 @@
 
     <script src="/scripts/canchor.min.js"></script>
     <script>
-    /**
-   * AnchorJS options and selector
- */
+    
 
 document.addEventListener("DOMContentLoaded", function(event) {
   //anchors.add();
