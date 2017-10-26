@@ -11,20 +11,23 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.0/anchor.min.js"></script>
+    <script src="/scripts/canchor.min.js"></script>
     <script>
     /**
-   * AnchorJS v3.2.0 options and selector
+   * AnchorJS options and selector
  */
 
-(function () {
-  'use strict';
-
-  anchors.options.placement = 'left';
-
-  anchors.add('.post-content > h2, .post-content > h3, .post-content > h4, .post-content > h5, .post-content > h6');
-
-})();
+document.addEventListener("DOMContentLoaded", function(event) {
+  //anchors.add();
+  
+  anchors.options = {
+  placement: 'left',
+  visible: 'touch',
+  icon: ''
+};
+  
+  anchors.add('.post > h1','.post > h2','.post > h3','.post > h4','.post > h5','.post > h6');
+});
 
 </script>
     
