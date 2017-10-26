@@ -10,7 +10,6 @@ layout: default
     {{ page.date | date: "%B %e, %Y" }}
   </div>
 
-
 ### Table of contents
 {:.no_toc}
 
