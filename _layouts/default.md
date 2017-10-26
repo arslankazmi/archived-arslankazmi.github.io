@@ -26,7 +26,7 @@
 
 })();
 
-<script/>
+</script>
     
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     
