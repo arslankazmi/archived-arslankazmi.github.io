@@ -13,10 +13,10 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
-  
-****  
-  
-  <div id="post-nav">
+
+---
+
+<div id="post-nav">
     <div style="width: 100%">    
         {% if page.previous.url %}
         <a class="prev" href="{{page.previous.url}}" style="float: left">
