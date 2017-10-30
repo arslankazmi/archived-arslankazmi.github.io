@@ -1,7 +1,10 @@
 ---
 layout: page
 title: About
+description: "About Me"
 permalink: /about/
+seo:
+  type: AboutPage
 
 ---
 
