@@ -17,7 +17,7 @@ layout: default
 ****  
   
   <div id="post-nav">
-    <div >    
+    <div style="width: 100%">    
         {% if page.previous.url %}
         <a class="prev" href="{{page.previous.url}}" style="float: left">
             <span>&lt; {{page.previous.title}}</span>
