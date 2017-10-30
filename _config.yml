@@ -100,6 +100,7 @@ plugins:
   - jekyll-gist
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Exclude these files from your production _site
 exclude:
