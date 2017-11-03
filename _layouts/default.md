@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>yay</title>
-
-   
-    
     {% seo %}
 
     <!--[if lt IE 9]>
