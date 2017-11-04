@@ -13,4 +13,4 @@ Hi, my name is Arslan Kazmi. I am a Computer Science graduate who loves to read.
 
 ### Contact me
 
-[arslanahmadkazmi@gmail.com](mailto:arslanahmadkazmi@gmail.com)
+[akazmi.public@gmail.com](mailto:akazmi.public@gmail.com)
