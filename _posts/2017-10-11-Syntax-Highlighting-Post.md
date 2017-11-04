@@ -3,8 +3,8 @@ layout: post
 title: Syntax Highlighting Post
 excerpt: "Demo post displaying the various ways of highlighting code in Markdown."
 tags: [sample post, code, highlighting]
-modified: 2016-02-01
-comments: true
+modified: 2017-10-30
+image: images/jekyll-now-theme-screenshot.jpg
 ---
 
 Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]
@@ -118,4 +118,4 @@ end
 
 An example of a Gist embed below.
 
-{% gist mmistakes/6589546 %}
+{% gist arslankazmi/c5ad3328c039bf233e2e897fa1cdaaf0 %}

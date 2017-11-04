@@ -10,7 +10,6 @@ You may not reuse anything therein without my permission:
 
 * \_posts/
 * \_pages/
-* images/
 * files/
 
 All other directories and files are MIT Licensed. Feel free to use the HTML and

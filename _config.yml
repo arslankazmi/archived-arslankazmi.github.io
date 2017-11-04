@@ -3,7 +3,8 @@
 #
 
 # Name of your site (displayed in the header)
-name: Arslan Kazmi's website
+title: Arslan Kazmi
+name: Arslan Kazmi
 
 author:
   twitter: _arslankazmi
@@ -15,9 +16,9 @@ author:
 description: Time traveling at a rate of 1 sec per sec.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars1.githubusercontent.com/u/31250161?v=4&s=400&u=42a1fdc73adda9553479feee8bcd6a98be5c5121
+avatar: https://avatars1.githubusercontent.com/u/31250161?&amp;u=42a1fdc73adda9553479feee8bcd6a98be5c5121
 
-resumepath: https://arslankazmi.github.io/files/arslan_ahmad_kazmi_resume.pdf
+resumepath: "Temporarily unavailable"
 
 twitter:
   username: _arslankazmi
@@ -26,9 +27,9 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://avatars1.githubusercontent.com/u/31250161?v=4&s=400&u=42a1fdc73adda9553479feee8bcd6a98be5c5121
+      image: https://avatars1.githubusercontent.com/u/31250161?v=4&amp;s=400&amp;u=42a1fdc73adda9553479feee8bcd6a98be5c5121
 
-logo: https://avatars1.githubusercontent.com/u/31250161?v=4&s=400&u=42a1fdc73adda9553479feee8bcd6a98be5c5121
+logo: https://avatars1.githubusercontent.com/u/31250161?&amp;u=42a1fdc73adda9553479feee8bcd6a98be5c5121
 
 
 #
@@ -61,7 +62,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://arslankazmi.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -84,6 +85,7 @@ version: v1.2.0
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
+  #auto_ids: true # Auto-generate ID's for headings
   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
   syntax_highlighter_opts:
@@ -95,10 +97,11 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 plugins:
-  - jekyll-gist
   - jekyll-feed
+  - jekyll-gist
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Exclude these files from your production _site
 exclude:
