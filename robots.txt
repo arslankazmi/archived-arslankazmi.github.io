@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /files
+Disallow: /images
+
+Sitemap: https://arslankazmi.github.io/sitemap.xml
