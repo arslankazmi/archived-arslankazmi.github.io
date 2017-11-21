@@ -30,10 +30,30 @@ layout: compress
     <![endif]-->
 
     <script src="/scripts/anchor.min.js" async></script>
-    <script src="/scripts/main.js" defer></script>
     
+    <!--
+    <script>
+          var cb = function() 
+          {
+          var l = document.createElement('link'); l.rel = 'stylesheet';
+          l.href = '{{ site.baseurl }}/style.css';
+          var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+            
+      };
+
+      var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+
+      if (raf) 
+        raf(cb);
+      else 
+        window.addEventListener('load', cb);
+
+
+    </script> -->
     
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
 
     
   </head>
@@ -82,6 +102,6 @@ layout: compress
     {% include analytics.html %}
     
     </div>
-    
+    <script src="/scripts/main.js" defer></script>
   </body>
 </html>
