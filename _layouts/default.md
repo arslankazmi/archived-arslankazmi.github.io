@@ -18,7 +18,7 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <script src="/scripts/anchor.min.js"></script>
+    <script src="/scripts/anchor.min.js" async></script>
     <script>
     
 
