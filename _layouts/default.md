@@ -1,6 +1,17 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html>
   <head>
+  <style>
+    .navigation li,
+    .contact-list li {
+    padding: 0 0 1rem;
+    }
+    </style>
+
     {% seo %}
     
     <!-- Favicon section-->
@@ -19,32 +30,15 @@
     <![endif]-->
 
     <script src="/scripts/anchor.min.js" async></script>
-    <script>
+    <script src="/scripts/main.js" defer></script>
     
-
-document.addEventListener("DOMContentLoaded", function(event) {
- 
-  
-  anchors.options = {
-  placement: 'right',
-  visible: 'touch',
-  icon: ''
-};
-  
-  anchors.add();
-  anchors.add('h1');
-  //anchors.add('.post > h1','.post > h2','.post > h3','.post > h4','.post > h5','.post > h6');
-});
-
-</script>
-    
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     
   </head>
-  <script>anchors.options.placement = 'left';anchors.add('.post-content > h2, .post-content > h3, .post-content > h4, .post-content > h5, .post-content > h6');</script>
+
+
   <body>
   <div id="bg">
      {% assign image = page.bgimg[0] %}

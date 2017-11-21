@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", function(event) {
  
   
@@ -9,5 +11,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
   
   anchors.add();
   anchors.add('h1');
-  //anchors.add('.post > h1','.post > h2','.post > h3','.post > h4','.post > h5','.post > h6');
 });
+
+var cb = function() 
+{
+    var l = document.createElement('link'); l.rel = 'stylesheet';
+    l.href = '/style.css';
+    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+      
+};
+
+var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+
+if (raf) 
+	raf(cb);
+else 
+	window.addEventListener('load', cb);
