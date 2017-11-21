@@ -47,7 +47,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   <script>anchors.options.placement = 'left';anchors.add('.post-content > h2, .post-content > h3, .post-content > h4, .post-content > h5, .post-content > h6');</script>
   <body>
   <div id="bg">
-      <img src="{{ page.bgimg}}" alt="">
+     {% assign image = page.bgimg[0] %}
+     {% include srcset-sizes.html %}
   </div>
   <div id="page-wrap">
     <div class="wrapper-masthead">
