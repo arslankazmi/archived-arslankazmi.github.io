@@ -10,6 +10,257 @@ layout: compress
     .contact-list li {
     padding: 0 0 1rem;
     }
+    html,
+body,
+div,
+h1,
+h3,
+h6,
+p,
+a,
+em,
+img,
+article,
+header,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+header,
+nav {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: #fff;
+  font: 18px/1.4 Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+h1,
+h3,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: bold;
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+}
+
+@media screen and (max-width: 640px) {
+  h1,
+  h3,
+  h6 {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  color: #1DACD6;
+}
+
+h1 a {
+  color: inherit;
+}
+
+h3 {
+  font-size: 20px;
+  color: #007BA7;
+}
+
+h6 {
+  font-size: 14px;
+  color: #ccc;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+em {
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+}
+
+.date {
+  font-style: italic;
+  color: #666;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.wrapper-masthead {
+  margin-bottom: 50px;
+}
+
+.masthead {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+@media screen and (max-width: 640px) {
+  .masthead {
+    text-align: center;
+  }
+}
+
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 640px) {
+  .site-avatar {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-avatar img {
+  border-radius: 5px;
+}
+
+.site-info {
+  float: left;
+}
+
+@media screen and (max-width: 640px) {
+  .site-info {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: #666;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 640px) {
+  .site-description {
+    margin: 3px 0;
+  }
+}
+
+nav {
+  float: right;
+  margin-top: 23px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 640px) {
+  nav {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+}
+
+nav a {
+  margin-left: 20px;
+  color: #333;
+  text-align: right;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 640px) {
+  nav a {
+    margin: 0 10px;
+    color: #4183C4;
+  }
+}
+
+#page-wrap {
+  position: relative;
+  z-index: 2;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: white;
+}
+
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
     </style>
 
     {% seo %}
@@ -30,8 +281,8 @@ layout: compress
     <![endif]-->
 
     <script src="/scripts/anchor.min.js" async></script>
+    <script src="/scripts/main.js" defer></script>
     
-    <!--
     <script>
           var cb = function() 
           {
@@ -49,9 +300,9 @@ layout: compress
         window.addEventListener('load', cb);
 
 
-    </script> -->
+    </script>
     
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
 
@@ -102,6 +353,6 @@ layout: compress
     {% include analytics.html %}
     
     </div>
-    <script src="/scripts/main.js" defer></script>
+    
   </body>
 </html>
