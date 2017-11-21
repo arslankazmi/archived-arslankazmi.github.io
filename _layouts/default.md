@@ -58,7 +58,7 @@ layout: compress
           <nav>
             <a href="{{ site.baseurl }}/blog">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.resumepath }}">Resume</a>
+            <a href="{{ site.baseurl }}/{{ site.resumepath }}">Resume</a>
             
           </nav>
         </header>
