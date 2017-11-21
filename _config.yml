@@ -70,6 +70,19 @@ url: https://arslankazmi.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+#srcset, sizes and dynamic media related
+image_url: /images
+default_width: '1000'
+sizes: '(min-width: 1020px) 60vw, 90vw'
+
+srcset:
+  - 320
+  - 600
+  - 850
+  - 1200
+
+
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
