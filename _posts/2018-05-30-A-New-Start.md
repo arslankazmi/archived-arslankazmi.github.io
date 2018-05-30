@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: A New Start
@@ -28,7 +27,7 @@ image:
 {:toc}
 
 ## **Hi!**
->.
+
  
 #### To be continued.
 {:.no_toc}
