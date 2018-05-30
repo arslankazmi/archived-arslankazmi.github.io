@@ -13,7 +13,6 @@ image:
 
 
 
-----
 
 {% assign image = page.image[0] %}
 {% include srcset-sizes.html %}
